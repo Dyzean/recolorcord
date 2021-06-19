@@ -5,10 +5,9 @@
   --avatar-width: 130px;
 }
 
-.avatarHint-2A3RNb {
+:root .avatarHint-2A3RNb {
     display: none;
 }
-
 :root .pointerEvents-2zdfdO {
   mask: none;
   pointer-events: none;
