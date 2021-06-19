@@ -1,0 +1,311 @@
+/* Shrink server banners to header instead of disappearing. */
+[class*="animatedContainer-"] {
+  opacity: 1 !important;
+  transition: opacity .25s;
+}
+[class*="animatedContainer-"] > [class*="bannerImage-"] {
+  transition: margin .25s;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] {
+  opacity: .35 !important;
+  height: 138px;
+}
+:not([class*="bannerVisible-"]) > [class*="animatedContainer-"] > [class*="bannerImage-"] {
+  margin-top: -12px;
+}
+
+.item-PXvHYJ[data-item-id=pc-updater] {
+  height: 4.65rem;
+  align-items: unset !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:hover {
+background: transparent;
+}
+.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
+background: transparent;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:after {
+position: absolute;
+margin-top: 2.19rem;
+border-top: 1px solid var(--background-modifier-accent);
+line-height: 2.6rem;    
+width: 89.5%;
+content: "Plugin Settings";
+  color: rgb(159, 159, 159);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/*Minified Members and Search*/
+/*By Fitil, Search fix by Cryptogenic*/
+.members-1998pB,
+.membersWrap-2h-GB4,
+.searchResultsWrap-3-pOjs {
+  border-radius: 18px 0px 0px 18px !important;
+  margin-top: 4px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0 0 6px);
+  color: rgba(0, 0, 0, 0.342);
+  width: 62px;
+  min-width: 60px;
+  transition-property: width, min-width;
+  transition-duration: 600ms;
+}
+.members-1998pB:hover,
+.membersWrap-2h-GB4:hover {
+  width: 240px;
+  min-width: 240px;
+}
+.searchResultsWrap-3-pOjs:hover {
+  width: 418px;
+  min-width: 418px;
+}
+.searchResultGroup-1DphGG {
+  width: 394px;
+}
+.membersWrap-2h-GB4,
+.searchResultsWrap-3-pOjs {
+  position: absolute;
+  right: 0;
+  height: 99%;
+  box-shadow: none;
+}
+.chatContent-a9vAAp {
+  min-width: calc(100% - 60px);
+  max-width: calc(100% - 60px);
+}
+.chatContent-a9vAAp[aria-label=" (channel)"] {
+  min-width: 100%;
+  max-width: 100%;
+}
+::-webkit-scrollbar { display: none; }
+
+/* Hide "Set A Server Nickname" on userpopouts */
+.setIdentityLink-3lcnXW {display: none}
+
+/* Online things & Now playing things on home */
+.title-30qZAO {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 20px 19px 30px;
+    color: rgb(55, 150, 107);
+}
+.header-2SF4Nh {
+    text-align: center;
+    font-size: 22px;
+    font-family: var(--font-display);
+    margin: 8px 0 20px;
+    margin-top: -4px;
+    font-weight: 700;
+}
+.header-2SF4Nh::after {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 1px;
+    left: 0px;
+    margin-top: 9px;
+    background: #afacace1;
+    position: absolute;
+}
+
+/*Titlebar*/
+div[class*="typeWindows-"]::after {
+    content: 'Recolorcord';
+    font-weight: 5000;
+    line-height: 31px;
+    color: var(--text-muted);
+    font-family: Discord;
+    font-size: 15px;
+    position: absolute;
+    padding: 0 9px;
+    top: -4.5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: rgba(var(--black), 0.85);
+    z-index: -1;
+}
+.wordmark-2iDDfm{
+	--text-muted: transparent;
+}
+
+/* User Role List Category Group Labels */
+.members-1998pB .membersGroup-v9BXpm {
+	width: calc(var(--User-List-Width) - 16px);
+  font-size: 12px;
+	height: 30px;
+	margin: 0px 0px 6px 8px;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: .01em;
+	text-align: left;
+	color: var(--channels-default);
+}
+.membersGroup-v9BXpm::after {
+    content: "";
+    display: block;
+    width: 210px;
+    height: 1px;
+    left: 7px;
+    margin-top: 4px;
+    background: var(--channels-default);
+    position: absolute;
+}
+.userInfo-2zN2z8 {
+   max-width: 530px;
+}
+
+/* Fixed Button Position */
+.button-38aScr {
+    right: 7px;
+}
+.button-14-BFJ {
+    left: 3px;
+}
+
+/* Squared Servers */
+.svg-1X37T1 > mask {
+  display: none;
+}
+
+.folder-1hbNCn,
+.icon-27yU2q,
+.circleIconButton-jET_ig,
+.childWrapper-anI2G9,
+.folder-21wGz3, 
+.folderIconWrapper-226oVY {
+  border-radius: 6px;
+}
+.avatarHint-2A3RNb {
+  display: none;
+}
+
+/* Horizontal Status Picker */
+#status-picker {
+    margin-bottom: 5px;
+}
+
+#status-picker > div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.statusItem-33LqPf {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.statusItem-33LqPf > svg {
+    width: 16px;
+    height: auto;
+}
+
+#status-picker .item-1tOPte {
+    margin: 0;
+    width: 25%;
+}
+
+#status-picker .status-1fhblQ,
+#status-picker .description-2L932D,
+#status-picker .separator-2I32lJ:nth-child(2) {
+    display: none;
+}
+
+#status-picker .separator-2I32lJ,
+#status-picker #status-picker-custom-status {
+    display: block;
+    width: 100%;
+}
+
+#status-picker-custom-status .status-1fhblQ {
+    display: block;
+    margin-left: 6px;
+}
+
+/* Toolbar Button */
+/* credits to Nyria#3863 */
+.search-2oPWTC:not(.open-6_Y_aH) .searchBar-3dMhjb {
+  width: 27px;
+  transition: 0.40s;
+  background-color: transparent;
+}
+.search-2oPWTC:not(.open-6_Y_aH):hover .searchBar-3dMhjb {
+  width: 240px;
+  transition: 0.70s;
+}
+.toolbar-1t6TWx .clickable-3rdHwn:not([aria-label="Threads"]) {
+  padding: 7px 7px 29px 7px;
+  background-color: var(--button-background);
+  margin: 1px;
+}
+.toolbar-1t6TWx .clickable-3rdHwn[aria-label="Threads"] {
+  border-left: 7px solid var(--button-background);
+  border-top: 18px solid var(--button-background);
+  border-right: 7px solid var(--button-background);
+  border-bottom: 18px solid var(--button-background);
+  margin: 1px;
+}
+.topControls-KKImPZ.controlSection-2h3cS0>div>div>section>.toolbar-1t6TWx>.button-1xaXFt.iconWrapper-2OrFZ1.clickable-3rdHwn {
+  background-color: transparent !important;
+}
+.topControls-KKImPZ.controlSection-2h3cS0>div>div>section>.toolbar-1t6TWx>.button-1xaXFt.iconWrapper-2OrFZ1.clickable-3rdHwn>svg {
+  color: var(--settings-icon-color) !important;
+}
+.search-36MZv-:not(.open-6_Y_aH) {
+  padding: 6px 4.5px 6px 4.5px;
+  background-color: var(--button-background);
+  margin: 1px 8px 1px 1px;
+  order: -1;
+  border-radius: var(--border-radius-1);
+}
+.searchBar-3dMhjb, .search-2oPWTC {
+  background-color: var(--button-background);
+}
+.threadSidebar-1o3BTy>section>.toolbar-1t6TWx .clickable-3rdHwn {
+  border-radius: var(--border-radius-1);
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::before {
+    content: "Ashtrath" !important;
+    left: 90px !important;
+}
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::after {
+    content: "RecolorCord By" !important;
+}
+.toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g) {
+  border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
+}
+.inviteToolbar-3F-l2g>div {
+  padding: 7px 7px 29px 10px !important;
+  border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
+}
+.toolbar-1t6TWx>:last-child>div, .toolbar-1t6TWx>:last-child {
+  border-radius: 0px var(--border-radius-1) var(--border-radius-1) 0px;
+}
+.toolbar-1t6TWx a {display: none;}
+
+/* Hide BD Public & Discovery */
+#bd-pub-button {
+    display: none;
+}
+#bd-pub-li {
+    display: none;
+}
+[href="/discovery"] {
+    display: none;
+}
+
+/* Replaces Message Links with "Jump to Message" */
+[href^="https://discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[href^="https://discord.com/channels/"]::before {
+    content:'Jump to Message';
+    font-size:16px;
+    font-weight:700;
+}
