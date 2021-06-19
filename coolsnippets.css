@@ -269,13 +269,6 @@ div[class*="typeWindows-"]::after {
 .threadSidebar-1o3BTy>section>.toolbar-1t6TWx .clickable-3rdHwn {
   border-radius: var(--border-radius-1);
 }
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::before {
-    content: "Ashtrath" !important;
-    left: 90px !important;
-}
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::after {
-    content: "RecolorCord By" !important;
-}
 .toolbar-1t6TWx>:first-child:not(.inviteToolbar-3F-l2g) {
   border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
 }
