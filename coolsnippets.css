@@ -232,9 +232,12 @@ div[class*="typeWindows-"]::after {
     width: 16px;
     height: auto;
 }
-
 .item-1tOPte {
     right: 4px;
+}
+.emojiButtonContainer-3d6DFV {
+    position: absolute;
+    left: 9px;
 }
 
 /* Toolbar Button */
