@@ -111,24 +111,21 @@ content: "Plugin Settings";
 }
 
 /*Titlebar*/
-div[class*="typeWindows-"]::after {
-    content: 'Recolorcord';
-    font-weight: 5000;
-    line-height: 31px;
-    color: var(--text-muted);
-    font-family: Discord;
-    font-size: 15px;
-    position: absolute;
-    padding: 0 9px;
-    top: -4.5px;
-    left: 0;
-    width: 100%;
-    height: 30px;
-    background: rgba(var(--black), 0.85);
-    z-index: -1;
-}
 .wordmark-2iDDfm{
 	--text-muted: transparent;
+}
+
+.wordmark-2iDDfm::after {
+    position: absolute;
+    font-family: "Discordinated";
+    content: "RecolorCord";
+    top: 3px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 19px;
+    width: 235px;
+    transform: translateY(-8%);
+    line-height: 20px;
 }
 
 /* User Role List Category Group Labels */
