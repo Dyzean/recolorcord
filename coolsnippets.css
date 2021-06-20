@@ -205,6 +205,10 @@ div[class*="typeWindows-"]::after {
     height: auto;
 }
 
+.clearStatusButton-1Mxs1q {
+    left: 65px;
+}
+
 #status-picker .item-1tOPte {
     margin: 0;
     width: 25%;
@@ -225,6 +229,16 @@ div[class*="typeWindows-"]::after {
 #status-picker-custom-status .status-1fhblQ {
     display: block;
     margin-left: 6px;
+}
+
+.clearStatusButton-1Mxs1q {
+    left: 61px;
+    width: 16px;
+    height: auto;
+}
+
+.item-1tOPte {
+    right: 4px;
 }
 
 /* Toolbar Button */
