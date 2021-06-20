@@ -304,6 +304,9 @@ div[class*="typeWindows-"]::after {
 [href="/discovery"] {
     display: none;
 }
+[aria-controls="ACTIVITY-tab"] {
+    display: none;
+}
 
 /* Replaces Message Links with "Jump to Message" */
 [href^="https://discord.com/channels/"] {
