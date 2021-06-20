@@ -115,7 +115,7 @@ content: "Plugin Settings";
 	--text-muted: transparent;
 }
 
-.wordmark-2iDDfm::after {
+div[class*="typeWindows-"]::after {
     position: absolute;
     font-family: "Discordinated";
     content: "RecolorCord";
