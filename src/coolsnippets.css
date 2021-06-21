@@ -395,7 +395,7 @@ div[class*="typeWindows-"]::after {
 .barButtonIcon-3t4V3d{
     visibility: visible;
     padding:11px;
-    background-color: var(--background-tertiary);
+    background-color: var(--background-accent);
     border-radius: 50%;
 }
 
