@@ -37,8 +37,8 @@ content: "Plugin Settings";
   font-size: 12px;
 }
 
-/*Minified Members and Search*/
-/*By Fitil, Search fix by Cryptogenic*/
+/* Minified Members and Search */
+/* By Fitil, Search fix by Cryptogenic */
 .members-1998pB,
 .membersWrap-2h-GB4,
 .searchResultsWrap-3-pOjs {
@@ -82,6 +82,16 @@ content: "Plugin Settings";
 ::-webkit-scrollbar { display: none; }
 
 /* Minified Server List */
+/* By Ashtrath */
+.wrapper-3NnKdC {
+    opacity: 0;
+    transition-property: opacity;
+    transition: 1s ease;
+}
+.wrapper-3NnKdC:hover {
+    opacity: 1;
+}
+/*Width*/
 .wrapper-3NnKdC {
     width: 01px;
     min-width: 1px;
