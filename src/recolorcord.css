@@ -976,9 +976,13 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
     border-radius: 0 !important;
     background: linear-gradient(#f04747da, transparent);
   }
+  .modeUnread-1qO3K1>div>a>div>.icon-1DeIlz{
+  color:var(--interactive-active);
+  }
   .text-2e2ZyG {
     display: none;
 }
+
 
 /* ----		2.3.	ACCOUNT/VOICE/GOLIVE			---- */
 
