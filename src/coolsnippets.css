@@ -178,63 +178,10 @@ div[class*="typeWindows-"]::after {
   display: none;
 }
 
-/* Horizontal Status Picker */
-#status-picker {
-    margin-bottom: 5px;
-}
-
-#status-picker > div {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 8px;
-}
-
-.statusItem-33LqPf {
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-}
-
-.statusItem-33LqPf > svg {
-    width: 16px;
-    height: auto;
-}
-
-#status-picker .item-1tOPte {
-    margin: 0;
-    width: 25%;
-}
-
-#status-picker .status-1fhblQ,
-#status-picker .description-2L932D,
-#status-picker .separator-2I32lJ:nth-child(2) {
-    display: none;
-}
-
-#status-picker .separator-2I32lJ,
-#status-picker #status-picker-custom-status {
-    display: block;
-    width: 100%;
-}
-
-#status-picker-custom-status .status-1fhblQ {
-    display: block;
-    margin-left: 6px;
-}
-
-.clearStatusButton-1Mxs1q {
-    left: 61px;
-    width: 16px;
-    height: auto;
-}
-.item-1tOPte {
-    right: 4px;
-}
-.emojiButtonContainer-3d6DFV {
-    position: absolute;
-    left: 9px;
+/* fix audio embed width to not cut off names of files */
+.wrapperAudio-1jDe0Q {
+  width:auto!important;
+  min-width: 400px;
 }
 
 /* Toolbar Button */
