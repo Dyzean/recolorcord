@@ -331,6 +331,62 @@ div[class*="typeWindows-"]::after {
   top: 173px;
 }
 
+/* Nicer User Area & Status Picker */
+.container-3baos1:last-child {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container-3baos1:last-child .horizontal-2EEEnY {
+  margin: auto;
+}
+.container-3baos1:last-child .button-14-BFJ[aria-label*='Game'] ~ .button-14-BFJ[aria-label='User Settings'] {
+  padding-right: 5px;
+}
+.container-3baos1 .canCopy-2VBT7N {
+  order: -1;
+  min-width: 45px;
+  margin-right: 8px;
+}
+#status-picker {
+  bottom: 0;
+  left: 72px;
+  width: 240px;
+  position: fixed;
+  border-radius: unset;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: var(--background-secondary-alt);
+}
+#status-picker .item-1tOPte {
+  margin: auto 5px;
+}
+#status-picker .separator-2I32lJ,
+#status-picker .description-2L932D {
+  display: none;
+}
+#status-picker-online {
+  --status-colour: var(--bsi-online-color, rgb(59, 165, 92));
+}
+#status-picker-idle {
+  --status-colour: var(--bsi-idle-color, rgb(250, 166, 26));
+}
+#status-picker-dnd {
+  --status-colour: var(--bsi-dnd-color, rgb(237, 66, 69));
+}
+#status-picker-invisible {
+  --status-colour: var(--bsi-invisible-color, rgb(116, 127, 141));
+}
+/* Add :not(#status-picker-game-activity) after each of these :not s if applicable */
+#status-picker .item-1tOPte:not(#status-picker-custom-status):active,
+#status-picker .item-1tOPte:not(#status-picker-custom-status).focused-3afm-j {
+  background-color: var(--status-colour);
+}
+/* Only use this if you have Better Status Indicators */
+#status-picker .item-1tOPte:active .status-1AY8sU,
+#status-picker .item-1tOPte.focused-3afm-j .status-1AY8sU {
+  background-color: white !important;
+}
+
 /* Hide BD Public & Discovery */
 #bd-pub-button {
     display: none;
