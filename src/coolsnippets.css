@@ -292,6 +292,10 @@ div[class*="typeWindows-"]::after {
 .container-3w7J-x {
   z-index: 1;
 }
+.privateChannels-1nO12o {
+    z-index: 1;
+}
+
 
 /* Discord Update Balloon */
 .iconWrapper-2OrFZ1[aria-label="Update Ready!"] {
