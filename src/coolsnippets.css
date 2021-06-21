@@ -81,6 +81,18 @@ content: "Plugin Settings";
 }
 ::-webkit-scrollbar { display: none; }
 
+/* Minified Server List */
+.wrapper-3NnKdC {
+    width: 01px;
+    min-width: 1px;
+    transition-property: width, min-width;
+    transition: 0.5s ease;
+}
+.wrapper-3NnKdC:hover{
+  width: 70px;
+  min-width: 68px;
+}
+
 /* Hide "Set A Server Nickname" on userpopouts */
 .setIdentityLink-3lcnXW {display: none}
 
@@ -413,6 +425,9 @@ div[class*="typeWindows-"]::after {
 }
 [aria-controls="ACTIVITY-tab"] {
     display: none;
+}
+button[aria-label="Send a gift"]{
+  display: none;
 }
 
 /* Replaces Message Links with "Jump to Message" */
