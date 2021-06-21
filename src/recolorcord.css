@@ -886,6 +886,11 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 
 /* ----		2.1.	GUILDHEADER						---- */
 
+.iconContainer-2-XQPY {
+    order: -1;
+    margin-right: 8px; 
+    margin-left: 0px;
+}
 .channelNotice-1-XFjC.invite-OjTXrW,
 .channelNotice-1-XFjC.guildMFAWarning-3GEzs8,
 .channelNotice-1-XFjC.maxMembersCount-3E4zND,
@@ -916,6 +921,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 	opacity: 0.6;
 	background: url(https://discord.com/assets/7065587bd42fd829925bf6aa4b36f5e2.svg) center top 22px/220px no-repeat;
 }
+
 
 /* ----		2.2.	CHANNELS						---- */
 
