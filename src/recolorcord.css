@@ -1192,6 +1192,13 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 	background-color: var(--background-tertiary) !important
 }
 
+.embedWrapper-lXpS3L {
+  box-shadow: 0px 8px 15px -8px rgba(0,0,0,0.3);
+}
+code {
+  box-shadow: 0px 8px 15px -8px rgba(0,0,0,0.3);
+}
+
 /* ====		3.2.3.	NITROGIFT						==== */
 
 /* ====		3.2.4.	INVITE							==== */
