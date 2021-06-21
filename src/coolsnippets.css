@@ -387,6 +387,18 @@ div[class*="typeWindows-"]::after {
   background-color: white !important;
 }
 
+/*Mobile Jump To Present Bar*/
+.jumpToPresentBar-G1R9s6{
+    visibility: hidden;
+    bottom:15px;
+}
+.barButtonIcon-3t4V3d{
+    visibility: visible;
+    padding:11px;
+    background-color: var(--background-tertiary);
+    border-radius: 50%;
+}
+
 /* Hide BD Public & Discovery */
 #bd-pub-button {
     display: none;
