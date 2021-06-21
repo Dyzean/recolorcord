@@ -3359,10 +3359,13 @@ code {
     position: relative;
     right: 200px;
 }
+.container-q03LZO, .badgeList-1R1WgZ {
+    justify-content: center;
+    margin-left: 80px;
+}
 .badgeList-1R1WgZ {
     position: relative;
-    right: 150px;
-    top: -5px;
+    bottom: -82px;
 }
 .nameTag-ECvD8P, .username-FvTBog {
     justify-content: center;
