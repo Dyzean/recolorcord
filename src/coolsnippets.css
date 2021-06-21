@@ -122,8 +122,10 @@ div[class*="typeWindows-"]::after {
     top: 3px;
     font-size: 14px;
     font-weight: normal;
-    height: 19px;
-    width: 235px;
+    top: 1px;
+    color: var(--text-muted);
+    width: 1360px;
+    height: -1px;
     transform: translateY(-8%);
     line-height: 20px;
 }
