@@ -422,6 +422,13 @@ div[class*="typeWindows-"]::after {
     background-color: var(--background-accent);
     border-radius: 50%;
 }
+.barBase-1c2Rfb {
+    min-height: 32px;
+}
+.newMessagesBar-265mhP {
+    background-color: var(--background-accent);
+    box-shadow: none;
+}
 
 /* Hide BD Public & Discovery */
 #bd-pub-button {
