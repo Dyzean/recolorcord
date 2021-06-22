@@ -998,7 +998,14 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
    left: 5px;
    padding-right: 5px
 }
-
+.rtcConnectionStatusConnected-VRZDjy {
+    position: relative;
+    right: -1px;
+}
+.actionButtons-14eAc_ {
+    position: relative;
+    right: -5px;
+}
 
 /* ----		2.3.	ACCOUNT/VOICE/GOLIVE			---- */
 
@@ -2583,6 +2590,10 @@ code {
 
 .emptyIcon-1yiM-z {
 	opacity: .5;
+}
+.profile-1eT9hT .details-2fkb7l .badgeList-HtCfKd {
+    	display: none;
+    	pointer-events: none !important;
 }
 
 /* ----		10.2.	GUILDADD/CREATION				---- */
