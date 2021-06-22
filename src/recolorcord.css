@@ -1000,7 +1000,7 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 .rtcConnectionStatusConnected-VRZDjy {
     position: relative;
-    right: -1px;
+    right: -1px !important;
 }
 .actionButtons-14eAc_ {
     position: relative;
