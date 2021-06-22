@@ -2592,8 +2592,8 @@ code {
 	opacity: .5;
 }
 .profile-1eT9hT .details-2fkb7l .badgeList-HtCfKd {
-    	display: none;
-    	pointer-events: none !important;
+    position: relative;
+    right: 75px !important;
 }
 
 /* ----		10.2.	GUILDADD/CREATION				---- */
