@@ -82,21 +82,19 @@ content: "Plugin Settings";
 ::-webkit-scrollbar { display: none; }
 
 /* Minified Server List */
-/* By Ashtrath */
 .wrapper-3NnKdC {
     opacity: 0;
-    transition-property: opacity;
-    transition: 1s ease;
+    transition: opacity 200ms ease;
 }
 .wrapper-3NnKdC:hover {
     opacity: 1;
 }
 /*Width*/
 .wrapper-3NnKdC {
-    width: 01px;
+    width: 1px;
     min-width: 1px;
     transition-property: width, min-width;
-    transition: 0.5s ease;
+    transition: 400ms ease;
 }
 .wrapper-3NnKdC:hover{
   width: 70px;
