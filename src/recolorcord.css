@@ -3366,12 +3366,15 @@ code {
     margin-left: 0px;
 }
 .container-q03LZO, .badgeList-1R1WgZ {
-    justify-content: center;
-    margin-left: 80px;
-}
-.badgeList-1R1WgZ {
     position: relative;
-    bottom: -82px;
+    top: -55px;
+    left: -157px;
+    margin-left: 0px;
+    padding: 6px 0 0 6px;
+    border-radius: 10px;
+    filter: in;
+    background-color: var(--background-secondary-alt);
+    justify-content: center;
 }
 .nameTag-ECvD8P, .username-FvTBog {
     justify-content: center;
