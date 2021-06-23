@@ -369,6 +369,10 @@ div[class*="typeWindows-"]::after {
   min-width: 45px;
   margin-right: 8px;
 }
+.emojiButtonContainer-3d6DFV {
+    margin: 0 17px;
+    height: 100%;
+}
 #status-picker {
   bottom: 0;
   left: 72px;
