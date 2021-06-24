@@ -10,13 +10,11 @@
 /* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
 
 /* Import */
-@import url(https://dyzean.github.io/recolorcord/recolorcord.css);
-@import url(https://dyzean.github.io/recolorcord/coolsnippets.css);
+@import url(https://dyzean.github.io/recolorcord/src/recolorcord.css);
+@import url(https://dyzean.github.io/recolorcord/src/coolsnippets.css);
 
 /* Extras */
-@import url("https://dyzean.github.io/recolorcord/squared.avatars.css");
-@import url("https://raw.githack.com/mr-miner1/Better-Badges/main/theme.css");
-@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+@import url("https://kckarnige.github.io/femboi_owo/discord-font.css");
 
 /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
 
@@ -45,4 +43,28 @@
 	--backgroundsecondaryalt: 	15,15,15;				/*	Background 3		 - 	default:	41,43,47		 - 	hex:	#292b2f		*/
 	--backgroundtertiary: 		10,10,10;				/*	Background 4		 - 	default:	32,34,37		 - 	hex:	#202225		*/
 	--backgroundfloating: 		12,12,12;					/*	Background Elevated	 - 	default:	24,25,28		 - 	hex:	#18191c		*/
+}
+
+:root { /* Channel Indicator CSS */
+    	/* ---- base -- */
+    	--indicator-hovered: rgba(79, 84, 92, 0.25);
+    	--indicator-rounding: 0;
+    	--indicator-border-info: 2px solid;
+
+    	/* ---- selected -- */
+    	--indicator-selected: 112, 135, 215;
+    	--indicator-selected-border: rgba(var(--indicator-selected));
+    	--indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    	--indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+
+    	/* ---- unreads -- */
+    	--indicator-unread: 255, 255, 255;
+    	--indicator-unread-border: rgba(var(--indicator-unread), 0.6);
+    	--indicator-unread-background: rgba(var(--indicator-unread), 0.01);
+    
+    	/* ---- connected -- */
+    	--indicator-connected: 67, 181, 129;
+    	--indicator-connected-border: rgba(var(--indicator-connected));
+    	--indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    	--indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
 }
