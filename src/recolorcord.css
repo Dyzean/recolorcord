@@ -3377,6 +3377,9 @@ code {
     background-color: var(--background-secondary-alt);
     justify-content: center;
 }
+.badgeList-1R1WgZ:empty {
+    visibility: hidden;
+}
 .nameTag-ECvD8P, .username-FvTBog {
     justify-content: center;
 }
