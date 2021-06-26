@@ -1,5 +1,4 @@
 @import url("https://discord-theme-addons.github.io/modern-channel-indicators/src/support/compiled.css");
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/UsrBgs.css");
 @import url("https://dyzean.github.io/gradient-badge-userpopouts/donators.css");
@@ -3365,11 +3364,6 @@ code {
 #app-mount .wumpusTooltip-mj7eo0::after {
 	border-color: transparent var(--background-tertiary) transparent transparent;
 }
-#app-mount .aboutMeTitle-1IYtPE{
-    position: relative;
-    right: -8px;
-    border-bottom: 1px;
-}
 
 #app-mount .aboutMeSection-1Fw5Ia {
     margin: 10px 5px 0 15px;
@@ -3378,34 +3372,6 @@ code {
     border-radius: 7px;
 }
 
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
-  transition: background-color 120ms;
-}
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8:focus {
-  background-color: var(--background-secondary-alt);
-}
-.setIdentityLink-1t8Ahd { display: none;}
-
-#app-mount .aboutMeSection-1Fw5Ia {
-    margin: 10px 5px 0 15px;
-    padding: 12px 12px 12px 16px; 
-    background-color: var(--background-primary);
-    border-radius: 7px;
-}
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
-  transition: background-color 120ms;
-}
-:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8:focus {
-  background-color: var(--background-secondary-alt);
-}
-.setIdentityLink-1t8Ahd { display: none;}
-
-#app-mount .aboutMeSection-1Fw5Ia {
-    margin: 10px 5px 0 15px;
-    padding: 12px 12px 12px 16px; 
-    background-color: var(--background-primary);
-    border-radius: 7px;
-}
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
   transition: background-color 120ms;
 }
