@@ -3400,6 +3400,20 @@ code {
 }
 .setIdentityLink-1t8Ahd { display: none;}
 
+#app-mount .aboutMeSection-1Fw5Ia {
+    margin: 10px 5px 0 15px;
+    padding: 12px 12px 12px 16px; 
+    background-color: var(--background-primary);
+    border-radius: 7px;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
+  transition: background-color 120ms;
+}
+:root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8:focus {
+  background-color: var(--background-secondary-alt);
+}
+.setIdentityLink-1t8Ahd { display: none;}
+
 .role-2irmRk[style*="border-color: rgba(185, 187, 190, .6)"],
 .role-3paDXR[style*="border-color: rgba(185, 187, 190, .6)"] {
 	border-color: rgba(var(--textbrighter), .6) !important;
