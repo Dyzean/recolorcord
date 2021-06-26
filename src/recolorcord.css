@@ -3365,11 +3365,6 @@ code {
 #app-mount .wumpusTooltip-mj7eo0::after {
 	border-color: transparent var(--background-tertiary) transparent transparent;
 }
-#app-mount .aboutMeTitle-1IYtPE{
-    position: relative;
-    right: -85px;
-    border-bottom: 1px;
-}
 
 #app-mount .aboutMeSection-1Fw5Ia {
     margin: 10px 5px 0 15px;
@@ -3377,7 +3372,6 @@ code {
     background-color: var(--background-primary);
     border-radius: 7px;
 }
-
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
   transition: background-color 120ms;
 }
