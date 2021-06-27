@@ -100,33 +100,14 @@ content: "Plugin Settings";
   min-width: 68px;
 }
 
-/* Hide "Set A Server Nickname" on userpopouts */
+/* Hide some features on userpopouts */
 .setIdentityLink-3lcnXW {display: none}
 
-/* Online things & Now playing things on home */
-.title-30qZAO {
-    text-align: center;
-    font-size: 14px;
-    margin: 10px 20px 19px 30px;
-    color: rgb(55, 150, 107);
+.gifTag-kA7fXf, .textBadge-1iylP6 {
+  display: none;
 }
-.header-2SF4Nh {
-    text-align: center;
-    font-size: 22px;
-    font-family: var(--font-display);
-    margin: 8px 0 20px;
-    margin-top: -4px;
-    font-weight: 700;
-}
-.header-2SF4Nh::after {
-    content: "";
-    display: block;
-    width: 350px;
-    height: 1px;
-    left: 0px;
-    margin-top: 9px;
-    background: #afacace1;
-    position: absolute;
+.banner-2QYc2d:hover .bannerOverlay-1uIerX, .banner-2QYc2d:hover .pencilIcon-XSi-VE {
+    display: none;
 }
 
 /*Titlebar*/
@@ -350,6 +331,58 @@ div[class*="typeWindows-"]::after {
   position: fixed;
   right: 148px;
   top: 173px;
+}
+
+/* Better User Popouts */
+.headerText-1vVs-U  {
+    margin-left: 96px;
+    margin-top: -54px;
+    max-width: 180px;
+}
+.customStatus-3NamXG {
+  top: 10px;
+  margin-bottom: 10px;
+}
+.bot-2Fta1w {
+    margin-top: 5px !important;
+}
+.activityUserPopout-2yItg2 {
+    height: auto;
+}
+.body-3iLsc4 {
+  padding: 16px 8px 8px 16px;
+}
+.headerTagUsernameNoNickname-1ZLDYY{
+  font-weight: 500;
+}
+.headerTagUsername-1rEZ3Z {
+    overflow: visible;
+}
+.headerTag-16AlQV {
+    display: contents;
+}
+.nickname-322DbL {
+  font-weight: 500;
+  line-height: 22px;
+  word-break: normal;
+}
+.headerTagDiscriminatorNoNickname-1jiWtJ {
+  font-weight: 500;
+  font-size: 90%;  
+}
+.profileBadges-ohc0Vu {
+  top: auto;
+  bottom: 5px;
+  right: 6px;
+}
+.headerTop-3vNv-a {
+    padding: 64px 16px 40px;
+}
+.profileBadges-ohc0Vu {
+    top: 50px;
+}
+.divider-ewBQKj {
+  margin-top: 5px;
 }
 
 /* Nicer User Area & Status Picker */
