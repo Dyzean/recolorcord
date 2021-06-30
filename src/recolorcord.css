@@ -9,6 +9,7 @@
 
 :root {
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	--sticker-size:				160px;
 	
 	--mentioncolor: 				250,166,26;
 	--successcolor: 				59,165,92;
@@ -1223,6 +1224,11 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 #app-mount .disabledButtonOverride-3Ntxjs {
 	background-color: var(--background-tertiary) !important
+}
+
+.clickableSticker-3HmpgV > div .assetWrapper-3GNt0z {
+    width: var(--sticker-size) !important;
+    height: var(--sticker-size) !important;
 }
 
 .embedWrapper-lXpS3L {
