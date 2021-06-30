@@ -9,6 +9,7 @@
 
 :root {
 	--font:							Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	--sticker-size:				160px;
 	
 	--mentioncolor: 				250,166,26;
 	--successcolor: 				59,165,92;
@@ -1223,6 +1224,11 @@ img[src='/assets/58957d928db6fb9d4658eb882f33d7bc.svg'] {
 }
 #app-mount .disabledButtonOverride-3Ntxjs {
 	background-color: var(--background-tertiary) !important
+}
+
+.clickableSticker-3HmpgV > div .assetWrapper-3GNt0z {
+    width: var(--sticker-size) !important;
+    height: var(--sticker-size) !important;
 }
 
 .embedWrapper-lXpS3L {
@@ -3365,14 +3371,9 @@ code {
 }
 
 #app-mount .aboutMeSection-1Fw5Ia {
-    margin: 10px 5px 0 15px;
     padding: 12px 12px 12px 16px; 
     background-color: var(--background-primary);
     border-radius: 7px;
-}
-.profileBannerPreview-3_l0Wd > .popoutInfo-pKbpvG > .aboutMeSection-1Fw5Ia {
-  margin: 0 16px 0 16px !important;
-  padding: 12px 12px 12px 16px;
 }
 
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
