@@ -3371,14 +3371,9 @@ code {
 }
 
 #app-mount .aboutMeSection-1Fw5Ia {
-    margin: 10px 5px 0 15px;
     padding: 12px 12px 12px 16px; 
     background-color: var(--background-primary);
     border-radius: 7px;
-}
-.profileBannerPreview-3_l0Wd > .popoutInfo-pKbpvG > .aboutMeSection-1Fw5Ia {
-  margin: 0 16px 0 16px !important;
-  padding: 12px 12px 12px 16px;
 }
 
 :root .userPopout-xaxa6l .body-3HBlXn .bodyInnerWrapper-26fQXj .note-1oo11U .textarea-2r0oV8 {
