@@ -3427,14 +3427,20 @@ code {
 }
 .badgeList-1R1WgZ {
     	position: relative;
-    	top: -55px;
+    	top: -50px;
     	left: -157px;
-    	margin-left: 0px;
-    	padding: 6px 0 0 6px;
+        padding: 4px 0 0 5px;
     	border-radius: 10px;
-    	filter: in;
     	background-color: var(--background-secondary-alt);
-    	justify-content: center;
+}
+.container-q03LZO {
+    margin: 0 0 0 0;
+}
+.container-q03LZO>* {
+    position: relative;
+    right: 3px;
+    top: -1px;
+    justify-content: flex-end;
 }
 .badgeList-1R1WgZ:empty {
     	visibility: hidden;
