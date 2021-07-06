@@ -14,29 +14,6 @@
   margin-top: -12px;
 }
 
-.item-PXvHYJ[data-item-id=pc-updater] {
-  height: 4.65rem;
-  align-items: unset !important;
-}
-.item-PXvHYJ[data-item-id=pc-updater]:hover {
-background: transparent;
-}
-.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
-background: transparent;
-}
-.item-PXvHYJ[data-item-id=pc-updater]:after {
-position: absolute;
-margin-top: 2.19rem;
-border-top: 1px solid var(--background-modifier-accent);
-line-height: 2.6rem;    
-width: 89.5%;
-content: "Plugin Settings";
-  color: rgb(159, 159, 159);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 12px;
-}
-
 /* Minified Members and Search */
 /* By Fitil, Search fix by Cryptogenic */
 .members-1998pB,
