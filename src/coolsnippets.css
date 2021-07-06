@@ -567,5 +567,15 @@ button[aria-label="Send a gift"]{
 [href^="https://discord.com/channels/"]::before {
     content:'Jump to Message';
     font-size:16px;
-    font-weight:700;
+    font-weight:500;
+}
+/* Canary */
+[href^="https://canary.discord.com/channels/"] {
+    line-height:0;
+    font-size:0;
+}
+[href^="https://canary.discord.com/channels/"]::before {
+    content:'Jump to Message';
+    font-size:16px;
+    font-weight:500;
 }
